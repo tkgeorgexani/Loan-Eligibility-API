@@ -492,7 +492,7 @@ Given more time, here's what I would enhance:
  
 **Why**: Makes the system more accessible to non-technical users.
  
-### 12. **Data Analytics**
+### 4. **Data Analytics**
 - Application approval/rejection metrics
 - Average processing time tracking
 - Most common rejection reasons
