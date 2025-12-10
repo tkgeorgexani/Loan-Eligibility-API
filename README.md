@@ -4,9 +4,9 @@ A production-ready loan eligibility verification system with integrated salary v
 
 ## Links
 
-- **GitHub Repository**: 
-- **Live API URL**: 
-- **API Documentation**:
+- **GitHub Repository**: https://github.com/tkgeorgexani/Loan-Eligibility-API.git
+- **Live API URL**: https://loan-eligibility-api.onrender.com
+- **API Documentation**: https://loan-eligibility-api.onrender.com/api-docs
 
 -----------------------------------------------------------------------------------------------------------------
 
