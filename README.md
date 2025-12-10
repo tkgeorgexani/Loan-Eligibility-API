@@ -198,8 +198,8 @@ I have selected a robust key technology stack to ensure the application is secur
 
 1. **Clone the Repository**
    ```bash
-   git clone <Repository URL>
-   cd swift
+   git clone https://github.com/tkgeorgexani/Loan-Eligibility-API.git
+   cd Loan-Eligibility-API
    ```
 
 2. **Install Dependencies**
