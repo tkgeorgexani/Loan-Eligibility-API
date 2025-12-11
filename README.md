@@ -266,6 +266,19 @@ I have selected a robust key technology stack to ensure the application is secur
 
    Or use the Swagger UI at `/api-docs` for interactive testing.
 
+   9. **Test ID**
+
+      I have provided 5 test IDs in the database for testing purposes.
+
+      ID123456789
+      ID987654321
+      ID555666777
+      ID111222333
+      ID444555666
+
+      ** You can also add your own test ID by inserting it into the mock_salary_data and mock_credit_data tables.**
+   
+
 -----------------------------------------------------------------------------------------------------------------
 
 ##  API Endpoints

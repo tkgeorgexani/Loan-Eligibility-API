@@ -50,11 +50,11 @@ const createTables = async () => {
 
 const seedMockData = async () => {
     const salaryData = [
-        { nationalId: 'ID123456789', monthlySalary: 150000, employer: 'Tech Corp', status: 'PERMANENT' },
-        { nationalId: 'ID987654321', monthlySalary: 80000, employer: 'Retail Ltd', status: 'PERMANENT' },
-        { nationalId: 'ID555666777', monthlySalary: 45000, employer: 'Small Business', status: 'CONTRACT' },
-        { nationalId: 'ID111222333', monthlySalary: 200000, employer: 'Finance Inc', status: 'PERMANENT' },
-        { nationalId: 'ID444555666', monthlySalary: 30000, employer: 'Startup Co', status: 'PROBATION' }
+        { nationalId: 'ID123456789', monthlySalary: 150000, employer: 'Escom', status: 'PERMANENT' },
+        { nationalId: 'ID987654321', monthlySalary: 80000, employer: 'TNM', status: 'PERMANENT' },
+        { nationalId: 'ID555666777', monthlySalary: 45000, employer: 'Airtel', status: 'CONTRACT' },
+        { nationalId: 'ID111222333', monthlySalary: 200000, employer: 'MRA', status: 'PERMANENT' },
+        { nationalId: 'ID444555666', monthlySalary: 30000, employer: 'SRWB', status: 'PROBATION' }
     ];
 
     const creditData = [

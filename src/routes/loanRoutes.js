@@ -3,30 +3,8 @@ const router = express.Router();
 const loanService = require('../services/loanService');
 const { validateLoanApplication } = require('../middleware/validation');
 
-/**
- * @swagger
- * /api/v1/loans/apply:
- *   post:
- *     summary: Submit a loan application
- *     tags: [Loan Applications]
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             $ref: '#/components/schemas/LoanApplication'
- *     responses:
- *       200:
- *         description: Application processed successfully
- *         content:
- *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/EligibilityResponse'
- *       400:
- *         description: Invalid request data
- *       500:
- *         description: Server error
- */
+
+ // /api/v1/loans/apply:summary: Submit a loan application
 router.post('/apply', validateLoanApplication, async (req, res, next) => {
     try {
         const { nationalId, loanAmount, termMonths } = req.validatedData;
@@ -58,25 +36,8 @@ router.post('/apply', validateLoanApplication, async (req, res, next) => {
     }
 });
 
-/**
- * @swagger
- * /api/v1/loans/history/{nationalId}:
- *   get:
- *     summary: Get application history for a national ID
- *     tags: [Loan Applications]
- *     parameters:
- *       - in: path
- *         name: nationalId
- *         required: true
- *         schema:
- *           type: string
- *         description: National ID of the applicant
- *     responses:
- *       200:
- *         description: Application history retrieved
- *       404:
- *         description: No applications found
- */
+
+ // /api/v1/loans/history/{nationalId}: Get application history for a national ID
 router.get('/history/:nationalId', async (req, res, next) => {
     try {
         const { nationalId } = req.params;

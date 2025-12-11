@@ -9,7 +9,7 @@ const startServer = async () => {
         console.log('Database connection established');
 
         app.listen(PORT, () => {
-            console.log(`Server running on port ${PORT}`);
+            console.log(`Server running on port`);
             console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
             console.log(`API Documentation: http://localhost:${PORT}/api-docs`);
         });
